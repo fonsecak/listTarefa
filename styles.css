@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(79, 79, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+
+.container{
+    font-family: "Montserrat", sans-serif;
+    width: 300px;
+}
+
+.tarefas {
+    text-align: center;
+    background-color: rgb(52, 48, 48);
+    padding: 35px;
+    border-radius: 2%;
+}
+
+.tarefas-titulo {
+    font-size: 48px;
+    color: azure;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    color: azure;
+    background-color: #503050;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7b307b;
+    font-size: 20px;
+}
+
+.lista {
+    text-align: left;
+    color: azure;
+    font-size: 18px;
+}
+
+#taskList {
+    list-style: inside;
+}
+
+#taskList li {
+    margin: 5px 0;
+    background-color: #5d5d5d;
+    border-radius: 10px;
+    padding: 0px 8px;
+    word-wrap: break-word;
+}
